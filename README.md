@@ -5,5 +5,5 @@ Editor: Unity 2020.3.22f1
 + New York
     - Path: 
         * ./Assets/CityScenes/NewYork.unity
-    - Example: 
+    - Example: ![avatar](https://github.com/Wjppppp/Urban-Drone-Race/raw/main/SomePics/NewYork%20City.png)
 ---------------------------------------------
