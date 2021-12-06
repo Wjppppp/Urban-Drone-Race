@@ -18,13 +18,13 @@ public class CheckPoint : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        Destroy(gameObject);
-        Debug.Log("Enter");
+        Destroy(gameObject);      
 
         if(other.tag == "Drone")
         {
             Score.ScoreInt += 1;
         }
+        Debug.Log("Score: "+ Score.ScoreInt);
 
     }
     private void OnTriggerStay(Collider other)
