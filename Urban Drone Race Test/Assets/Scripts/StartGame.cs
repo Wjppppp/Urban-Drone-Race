@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class StartGame : MonoBehaviour
 {
-    public GameObject obj;
+    public GameObject obj0, obj1, obj2;
     public Transform checkPoints;
     public Text ScoreText;
     public Text Time;
@@ -37,11 +37,13 @@ public class StartGame : MonoBehaviour
         ScoreText.GetComponent<Score>().enabled = true;
         Time.GetComponent<Timer>().enabled = true;
 
-        CreateObjs(ObjNum, checkPoints);
+        CreateObjs(obj1, ObjNum, checkPoints);
+        CreateObjs(obj0, ObjNum/2, checkPoints);
+        CreateObjs(obj2, ObjNum/10, checkPoints);
         Debug.Log("this is Button");
     } 
 
-    private void CreateObjs(int ObjNum, Transform parent)
+    private void CreateObjs(GameObject obj,int ObjNum, Transform parent)
     {
         for (int i = 0; i < ObjNum; i++)
         {

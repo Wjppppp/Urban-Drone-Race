@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CheckPoint : MonoBehaviour
 {
-
+    public int CheckPointType = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +22,18 @@ public class CheckPoint : MonoBehaviour
 
         if(other.tag == "Drone")
         {
-            Score.ScoreInt += 1;
+            if(CheckPointType == 0)
+            {
+                Score.ScoreInt -= 5;
+            }
+            if (CheckPointType == 1)
+            {
+                Score.ScoreInt += 1;
+            }
+            if (CheckPointType == 2)
+            {
+                Score.ScoreInt += 10;
+            }
         }
         Debug.Log("Score: "+ Score.ScoreInt);
 
