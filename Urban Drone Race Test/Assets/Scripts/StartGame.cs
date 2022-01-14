@@ -41,14 +41,52 @@ public class StartGame : MonoBehaviour
         CreateObjs(obj0, ObjNum/2, checkPoints);
         CreateObjs(obj2, ObjNum/10, checkPoints);
         Debug.Log("this is Button");
-    } 
+    }
 
-    private void CreateObjs(GameObject obj,int ObjNum, Transform parent)
+    private Vector3 findCoord()
     {
+        float x, y, z;
+        x = Random.Range(-200f, 200f);
+        y = Random.Range(3f, 40f);
+        z = Random.Range(-200f, 200f);
+        int radius = 3;
+        while (true)
+        {
+            Collider[] cols = Physics.OverlapSphere(new Vector3(x, y, z), radius);
+            Debug.Log("There are"+cols.Length+"buildings around"+x+y+z);
+            if (cols.Length == 0)
+            {
+                return new Vector3(x, y, z);
+            }
+            x = Random.Range(-200f, 200f);
+            y = Random.Range(3f, 40f);
+            z = Random.Range(-200f, 200f);
+            cols = null;
+        }       
+        
+    }
+    //draw ball
+    //private void OnDrawGizmos()
+    //{
+    //    if (checkPoints.childCount > 0)
+    //    {
+    //        for (int i = 0; i < checkPoints.childCount; i++)
+    //        {
+    //            Gizmos.DrawWireSphere(checkPoints.position, 3);
+    //        }
+    //    }
+        
+    //}
+    public void CreateObjs(GameObject obj,int ObjNum, Transform parent)
+    {
+        
+        Vector3 coord;
         for (int i = 0; i < ObjNum; i++)
         {
-            Instantiate(obj, new Vector3(Random.Range(-200f, 200f), Random.Range(0f, 50f), Random.Range(-200f, 200f)), Quaternion.Euler(0, Random.Range(0, 360f), 0), parent);
-        }
+            coord = findCoord();
+            Instantiate(obj, coord, Quaternion.Euler(0, Random.Range(0, 360f), 0), parent);
+        }       
+        Debug.Log(parent.childCount);
     }
 
     // Update is called once per frame

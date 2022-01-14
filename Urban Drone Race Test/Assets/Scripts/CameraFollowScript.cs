@@ -9,7 +9,7 @@ public class CameraFollowScript : MonoBehaviour
 
     private void Awake()
     {
-        drone_1 = GameObject.FindGameObjectWithTag("Player").transform;
+        drone_1 = GameObject.FindGameObjectWithTag("Drone").transform;
     }
 
     private Vector3 velocityCameraFollow;

@@ -17,12 +17,11 @@ public class CheckPoint : MonoBehaviour
         
     }
     private void OnTriggerEnter(Collider other)
-    {
-        Destroy(gameObject);      
-
-        if(other.tag == "Drone")
+    {        
+        if (other.tag == "Drone")
         {
-            if(CheckPointType == 0)
+            Destroy(gameObject);
+            if (CheckPointType == 0)
             {
                 Score.ScoreInt -= 5;
             }
@@ -36,11 +35,10 @@ public class CheckPoint : MonoBehaviour
             }
         }
         Debug.Log("Score: "+ Score.ScoreInt);
-
     }
     private void OnTriggerStay(Collider other)
-    {
-
+    {       
+        Destroy(gameObject);    
     }
     private void OnTriggerExit(Collider other)
     {
