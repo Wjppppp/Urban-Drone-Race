@@ -87,6 +87,10 @@ public class StartGame : MonoBehaviour
             Instantiate(obj, coord, Quaternion.Euler(0, Random.Range(0, 360f), 0), parent);
         }       
         Debug.Log(parent.childCount);
+        foreach(Transform tran in parent.GetComponentsInChildren<Transform>())
+        {
+            tran.gameObject.layer = 7;
+        }
     }
 
     // Update is called once per frame
