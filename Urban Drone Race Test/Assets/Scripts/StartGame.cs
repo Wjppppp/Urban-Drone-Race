@@ -13,6 +13,11 @@ public class StartGame : MonoBehaviour
 
     public int ObjNum = 0;
 
+
+    public int maxHealth = 100; ///
+    public int currentHealth; ///
+    public HealthBar healthBar; ///
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,6 +46,9 @@ public class StartGame : MonoBehaviour
         CreateObjs(obj0, ObjNum/2, checkPoints);
         CreateObjs(obj2, ObjNum/10, checkPoints);
         Debug.Log("this is Button");
+
+        currentHealth = maxHealth; ///
+        healthBar.SetMaxHealth(maxHealth); ///
     }
 
     private Vector3 findCoord()
