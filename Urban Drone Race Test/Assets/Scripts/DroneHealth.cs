@@ -5,10 +5,20 @@ using UnityEngine;
 public class DroneHealth : MonoBehaviour
 {
     public int maxHealth = 100;
-    public int currentHealth;
+    static private int currentHealth = 0;
 
     public HealthBar healthBar;
-
+    static public int healthNum
+    {
+        get
+        {
+            return currentHealth;
+        }
+        set
+        {
+            currentHealth = value;
+        }
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -36,7 +46,7 @@ public class DroneHealth : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     //void OnTriggerEnter(Collider col)
     {
-        Debug.Log(collision.gameObject.tag);
+        //Debug.Log(collision.gameObject.tag);
         //if (col.tag == "CitySimulatorMap")
         //if(collision.gameObject.name == "Cube")
         if(collision.gameObject)

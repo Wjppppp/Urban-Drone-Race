@@ -6,7 +6,9 @@ public class ChangeCity : MonoBehaviour
 {
     public GameObject currentCity;
     public GameObject[] cityPrefabs;
+    public string[] cityNames;
     private GameObject[] cityGameObjects;
+    private string[] cityNameTexts;
     private int selectedIndex = 0;
     private int length;
     // Start is called before the first frame update
@@ -14,9 +16,11 @@ public class ChangeCity : MonoBehaviour
     {
         length = cityPrefabs.Length;
         cityGameObjects = new GameObject[length];
+        cityNameTexts = new string[length];
         for (int i = 0; i < length; i++)
         {
             cityGameObjects[i] = GameObject.Instantiate(cityPrefabs[i], transform.position, transform.rotation);
+            cityNameTexts[i] = cityNames[i];
         }
         UpdateCity();
     }
@@ -25,6 +29,7 @@ public class ChangeCity : MonoBehaviour
         cityGameObjects[selectedIndex].transform.position = currentCity.transform.position;
         cityGameObjects[selectedIndex].transform.rotation = currentCity.transform.rotation;
         cityGameObjects[selectedIndex].SetActive(true);
+        MiniMapCityName.cityName = cityNameTexts[selectedIndex];
         for (int i = 0; i < length; i++)
         {
             if (i != selectedIndex)
