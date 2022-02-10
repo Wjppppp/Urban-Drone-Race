@@ -1,0 +1,267 @@
+fileFormatVersion: 2
+guid: f7412f9a70b76fe499d9d5e005d4af6b
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 1904163023060378332
+    second: bun_bottom|bun_bottomAction
+  - first:
+      74: -5703601468148314042
+    second: bun_bottom|Camera|Take 001|Layer 001
+  - first:
+      74: 7960850235586731425
+    second: bun_bottom|Directional Light|Take 001|Layer 001
+  - first:
+      74: -9037366878871934255
+    second: bun_bottom|Mesh|Take 001|Layer 001
+  - first:
+      74: -6550252115857190724
+    second: bun_bottom|Mesh|Take 001|Layer 001.001
+  - first:
+      74: -3238388144518908060
+    second: bun_bottom|Mesh|Take 001|Layer 001.002
+  - first:
+      74: -2750788979423909703
+    second: bun_bottom|Mesh|Take 001|Layer 001.003
+  - first:
+      74: -7376595539851654034
+    second: bun_bottom|Mesh|Take 001|Layer 001.004
+  - first:
+      74: -3612891794107001484
+    second: bun_bottom|Mesh|Take 001|Layer 001.005
+  - first:
+      74: 2473415203378152667
+    second: bun_bottom|Texture Group (2)|Take 001|Layer 001
+  - first:
+      74: 6194610285167511241
+    second: bun_bottom|Texture Group|Take 001|Layer 001
+  - first:
+      74: 5895943901080441034
+    second: Mesh.001|bun_bottomAction
+  - first:
+      74: -5786304195430456567
+    second: Mesh.001|Camera|Take 001|Layer 001
+  - first:
+      74: 7302767892843479723
+    second: Mesh.001|Directional Light|Take 001|Layer 001
+  - first:
+      74: -7474526600866537193
+    second: Mesh.001|Mesh|Take 001|Layer 001
+  - first:
+      74: -7699378323233198599
+    second: Mesh.001|Mesh|Take 001|Layer 001.001
+  - first:
+      74: -495793679530871769
+    second: Mesh.001|Mesh|Take 001|Layer 001.002
+  - first:
+      74: -1052694616461718458
+    second: Mesh.001|Mesh|Take 001|Layer 001.003
+  - first:
+      74: -5168462949653233565
+    second: Mesh.001|Mesh|Take 001|Layer 001.004
+  - first:
+      74: 8066802403852036376
+    second: Mesh.001|Mesh|Take 001|Layer 001.005
+  - first:
+      74: -4144045864991141957
+    second: Mesh.001|Texture Group (2)|Take 001|Layer 001
+  - first:
+      74: -4559044846024404713
+    second: Mesh.001|Texture Group|Take 001|Layer 001
+  - first:
+      74: 3252719479170747078
+    second: Mesh.002|bun_bottomAction
+  - first:
+      74: -4129328587704435760
+    second: Mesh.002|Camera|Take 001|Layer 001
+  - first:
+      74: 6696845299398663232
+    second: Mesh.002|Directional Light|Take 001|Layer 001
+  - first:
+      74: -4372484974147492128
+    second: Mesh.002|Mesh|Take 001|Layer 001
+  - first:
+      74: -4626557406877589230
+    second: Mesh.002|Mesh|Take 001|Layer 001.001
+  - first:
+      74: -6200706001991678303
+    second: Mesh.002|Mesh|Take 001|Layer 001.002
+  - first:
+      74: -4737633014161693943
+    second: Mesh.002|Mesh|Take 001|Layer 001.003
+  - first:
+      74: 2135892137546345117
+    second: Mesh.002|Mesh|Take 001|Layer 001.004
+  - first:
+      74: -1585163150989804454
+    second: Mesh.002|Mesh|Take 001|Layer 001.005
+  - first:
+      74: -3618809549403397853
+    second: Mesh.002|Texture Group (2)|Take 001|Layer 001
+  - first:
+      74: -2512617556344942762
+    second: Mesh.002|Texture Group|Take 001|Layer 001
+  - first:
+      74: 1573792996660173082
+    second: Mesh.003|bun_bottomAction
+  - first:
+      74: -8059228891976598516
+    second: Mesh.003|Camera|Take 001|Layer 001
+  - first:
+      74: 1426926540160841821
+    second: Mesh.003|Directional Light|Take 001|Layer 001
+  - first:
+      74: -6753776049946768805
+    second: Mesh.003|Mesh|Take 001|Layer 001
+  - first:
+      74: 7678333215225661395
+    second: Mesh.003|Mesh|Take 001|Layer 001.001
+  - first:
+      74: -8831567186966191763
+    second: Mesh.003|Mesh|Take 001|Layer 001.002
+  - first:
+      74: 387896503381569517
+    second: Mesh.003|Mesh|Take 001|Layer 001.003
+  - first:
+      74: 3532440210695675117
+    second: Mesh.003|Mesh|Take 001|Layer 001.004
+  - first:
+      74: -3688861095685968171
+    second: Mesh.003|Mesh|Take 001|Layer 001.005
+  - first:
+      74: -1665504819176946601
+    second: Mesh.003|Texture Group (2)|Take 001|Layer 001
+  - first:
+      74: 1271247123547165813
+    second: Mesh.003|Texture Group|Take 001|Layer 001
+  - first:
+      74: -8093203241789739169
+    second: Mesh.004|bun_bottomAction
+  - first:
+      74: -6291715093129106766
+    second: Mesh.004|Camera|Take 001|Layer 001
+  - first:
+      74: 1646833249716245671
+    second: Mesh.004|Directional Light|Take 001|Layer 001
+  - first:
+      74: 1469083465968399289
+    second: Mesh.004|Mesh|Take 001|Layer 001
+  - first:
+      74: 1745798537725972578
+    second: Mesh.004|Mesh|Take 001|Layer 001.001
+  - first:
+      74: 7832525755443741213
+    second: Mesh.004|Mesh|Take 001|Layer 001.002
+  - first:
+      74: 346423046489649507
+    second: Mesh.004|Mesh|Take 001|Layer 001.003
+  - first:
+      74: 5228358430819841835
+    second: Mesh.004|Mesh|Take 001|Layer 001.004
+  - first:
+      74: 862633543977811503
+    second: Mesh.004|Mesh|Take 001|Layer 001.005
+  - first:
+      74: 3540895609528967349
+    second: Mesh.004|Texture Group (2)|Take 001|Layer 001
+  - first:
+      74: 7394997418048209653
+    second: Mesh.004|Texture Group|Take 001|Layer 001
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

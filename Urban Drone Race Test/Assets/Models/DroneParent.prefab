@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 7183815305723021070}
   - component: {fileID: 7183815305723021071}
   - component: {fileID: 7183815305723021064}
-  m_Layer: 0
+  - component: {fileID: 1585954172804552485}
+  m_Layer: 3
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,6 +96,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1585954172804552485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7183815305723021066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eecf0339029044f4292a4227f5a601db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5000
+  dir: y
 --- !u!1 &7183815305891667200
 GameObject:
   m_ObjectHideFlags: 0
@@ -107,7 +122,8 @@ GameObject:
   - component: {fileID: 7183815305891667204}
   - component: {fileID: 7183815305891667205}
   - component: {fileID: 7183815305891667206}
-  m_Layer: 0
+  - component: {fileID: 6369325729395621388}
+  m_Layer: 3
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -190,6 +206,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6369325729395621388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7183815305891667200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eecf0339029044f4292a4227f5a601db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5000
+  dir: y
 --- !u!1 &7183815306868084904
 GameObject:
   m_ObjectHideFlags: 0
@@ -199,11 +229,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7183815306868084909}
-  - component: {fileID: 7183815306868084910}
   - component: {fileID: 7183815306868084911}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DroneParent
-  m_TagString: Player
+  m_TagString: Drone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -227,22 +256,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &7183815306868084910
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7183815306868084904}
-  serializedVersion: 2
-  m_Mass: 10
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &7183815306868084911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -250,7 +263,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7183815306868084904}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 21626b827b008764cb4ada5a6fd0622e, type: 3}
   m_Name: 
@@ -269,7 +282,7 @@ GameObject:
   - component: {fileID: 7183815306873976984}
   - component: {fileID: 7183815306873976985}
   - component: {fileID: 7183815306873976986}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DroneBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -348,7 +361,7 @@ BoxCollider:
   m_GameObject: {fileID: 7183815306873976980}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -364,7 +377,8 @@ GameObject:
   - component: {fileID: 7183815306986745618}
   - component: {fileID: 7183815306986745619}
   - component: {fileID: 7183815306986745708}
-  m_Layer: 0
+  - component: {fileID: 7745910536011794789}
+  m_Layer: 3
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -447,6 +461,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7745910536011794789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7183815306986745710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eecf0339029044f4292a4227f5a601db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5000
+  dir: y
 --- !u!1 &7183815307767916355
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,7 +487,8 @@ GameObject:
   - component: {fileID: 7183815307767916359}
   - component: {fileID: 7183815307767916352}
   - component: {fileID: 7183815307767916353}
-  m_Layer: 0
+  - component: {fileID: 9069631531019643908}
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -538,7 +567,21 @@ BoxCollider:
   m_GameObject: {fileID: 7183815307767916355}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &9069631531019643908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7183815307767916355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eecf0339029044f4292a4227f5a601db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5000
+  dir: y
