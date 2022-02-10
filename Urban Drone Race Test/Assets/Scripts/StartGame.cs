@@ -64,9 +64,9 @@ public class StartGame : MonoBehaviour
     {
         float x, y, z;
         x = Random.Range(-400f, 400f);//Secne Size
-        y = Random.Range(3f, 40f);
+        y = Random.Range(0f, 80f);
         z = Random.Range(-400f, 400f);
-        int radius = 3;
+        int radius = 2;
         while (true)
         {
             Collider[] cols = Physics.OverlapSphere(new Vector3(x, y, z), radius);
@@ -76,7 +76,7 @@ public class StartGame : MonoBehaviour
                 return new Vector3(x, y, z);
             }
             x = Random.Range(-400f, 400f);//Secne Size
-            y = Random.Range(3f, 40f);
+            y = Random.Range(0f, 80f);
             z = Random.Range(-400f, 400f);
             cols = null;
         }       
