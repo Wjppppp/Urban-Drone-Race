@@ -59,7 +59,25 @@ public class StartGame : MonoBehaviour
         healthBar.SetMaxHealth(maxHealth); ///
         healthBar.SetHealth(DroneHealth.healthNum);
     }
-
+    public void OnTourClick()
+    {
+        Timer.TimeFloat = GameTime;
+        DroneHealth.healthNum = 10000;
+        ScoreText.GetComponent<Score>().enabled = false;
+        Time.GetComponent<Timer>().enabled = false;
+        btnGroup.SetActive(true);
+        healthBar.gameObject.SetActive(false);
+        Time.gameObject.SetActive(false);
+        ScoreText.gameObject.SetActive(false);
+        gameoverObject.SetActive(false);
+        if (checkPoints.childCount > 0)
+        {
+            for (int i = 0; i < checkPoints.childCount; i++)
+            {
+                Destroy(checkPoints.GetChild(i).gameObject);
+            }
+        }
+    }
     private Vector3 findCoord()
     {
         float x, y, z;
