@@ -2,6 +2,30 @@
 
 ------------
 
+- [Urban-Drone-Race](#urban-drone-race)
+  - [1. Abstract](#1-abstract)
+  - [2. Environment and Building](#2-environment-and-building)
+    - [2.1 Environment](#21-environment)
+    - [2.2 How to Build](#22-how-to-build)
+  - [3. Tool Introduction](#3-tool-introduction)
+    - [3.1 Unity](#31-unity)
+      - [3.1.1 Unity Engine](#311-unity-engine)
+      - [3.1.2 Unity Editor](#312-unity-editor)
+      - [3.1.3 Unity Game’s structure](#313-unity-games-structure)
+      - [3.1.4 Working in Unity](#314-working-in-unity)
+    - [3.2 Mapbox](#32-mapbox)
+      - [3.2.1 City Simulator](#321-city-simulator)
+      - [3.2.2 Base Map](#322-base-map)
+    - [3.3 Blender](#33-blender)
+  - [4. Main functions implemented](#4-main-functions-implemented)
+    - [4.1 Overview](#41-overview)
+    - [4.2 Script Introduction](#42-script-introduction)
+    - [4.3 Controls](#43-controls)
+  - [5. Demo](#5-demo)
+  - [6. Resources](#6-resources)
+
+------------
+
 ## 1. Abstract
 
 This project is a third-person free-to-control drone city flight game based on the Unity platform. This game scene is based on the 3D city simulation scene provided by Mapbox SDK for Unity, with different cities and map styles designed. In this game, players can switch between different drone models and urban scenes, and explore freely within the urban scene. Of course, you can also start a tense and exciting racing mode. In the racing mode, you need to pass as many checkpoints as possible in a limited time to get a higher score, and at the same time be careful not to collide with buildings. Come and experience the flight tour in different cities!
@@ -149,13 +173,13 @@ Drone can be controlled by using WASD and IJKL keys.
 
 ------------
 
-## 6. Demo
+## 5. Demo
 
 [![Demo](http://img.youtube.com/vi/JkMOSHFdvFM/0.jpg)](http://www.youtube.com/watch?v=JkMOSHFdvFM)
 
 ------------
 
-## 5. Resources
+## 6. Resources
 
 https://unity.com/   
 https://docs.unity3d.com/ScriptReference/index.html   
