@@ -151,18 +151,16 @@ Drone can be controlled by using WASD and IJKL keys.
 
 ## 6. Demo
 
-<p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JkMOSHFdvFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
+[![Demo](http://img.youtube.com/vi/JkMOSHFdvFM/0.jpg)](http://www.youtube.com/watch?v=JkMOSHFdvFM)
 
 ------------
 
 ## 5. Resources
 
-https://unity.com/
-https://docs.unity3d.com/ScriptReference/index.html
-https://docs.unity3d.com/Manual/index.html
-https://docs.mapbox.com/unity/maps/guides/
-https://www.blender.org/
+https://unity.com/   
+https://docs.unity3d.com/ScriptReference/index.html   
+https://docs.unity3d.com/Manual/index.html   
+https://docs.mapbox.com/unity/maps/guides/   
+https://www.blender.org/   
 
 ------------
