@@ -2,6 +2,9 @@
 
 ## 1. Abstract
 
+![Fig 1.1](SomePics/Fig%201.1.1.png?raw=true)
+<img src="https://github.com/Wjppppp/Urban-Drone-Race/blob/main/SomePics/Fig%201.1.1.png?raw=true" width="50%">
+
 ## 2. Environment and Building
 
 ### 2.1 Environment
