@@ -175,7 +175,7 @@ Drone can be controlled by using WASD and IJKL keys.
 
 ## 5. Demo
 
-[![Demo](http://img.youtube.com/vi/JkMOSHFdvFM/0.jpg)](http://www.youtube.com/watch?v=JkMOSHFdvFM)
+[![Urban Drone Race](https://res.cloudinary.com/marcomontalbano/image/upload/v1646694830/video_to_markdown/images/youtube--JkMOSHFdvFM-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=JkMOSHFdvFM "Urban Drone Race")
 
 ------------
 
