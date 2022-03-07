@@ -1,7 +1,7 @@
 # Urban-Drone-Race
 
 ## 1. Abstract
-
+![Fig 1.1](SomePics/Fig 1.1.1.png)
 ## 2. Environment and Building
 
 ### 2.1 Environment
