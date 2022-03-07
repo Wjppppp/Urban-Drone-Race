@@ -2,7 +2,9 @@
 
 ## 1. Abstract
 
-
+![Fig 1.1](SomePics/Fig1.1.1.png "Fig 1.1")
+<img src="SomePics/Fig1.1.1.png" width="50%">
+<img src="SomePics/Fig1.1.2.png" width="50%">
 
 ## 2. Environment and Building
 
