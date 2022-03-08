@@ -115,7 +115,45 @@ Users can change location, image, terrain and map layers in this prefab. The sce
 
 #### 3.2.2 Base Map
 
-///////////////////////////////////////////////////
+Our project uses Mapbox Studio to style the base maps according to the theme of the game. Mapbox Studio allows us to customise the base map and their elements, adjust the width and the size of the elements, the colours and the patterns of the highways and the buildings and other map attributes that make the map pop up and add a character to it to include in the game! 
+
+We have three cities depicted in our game:
+- New York
+- Hamburg
+- Tokyo
+
+Each of the cities are iterated with a style unique to the city and capturing its theme. The added styles are: 
+- Boom
+- Manhattan 
+- Navigation 
+
+<img width="390" alt="image" src="https://user-images.githubusercontent.com/17887418/157328517-80e0cf92-fd4e-42b7-a103-44c224c934d3.png">
+
+<img width="389" alt="image" src="https://user-images.githubusercontent.com/17887418/157328707-c9908c4f-c421-4c1e-8299-a52360eb5627.png">
+
+<img width="390" alt="image" src="https://user-images.githubusercontent.com/17887418/157328780-5233b811-d4dc-4b2f-8d31-c454cfb1d12a.png">
+
+**Colour themes:**
+- Boom: 
+<img width="206" alt="image" src="https://user-images.githubusercontent.com/17887418/157328894-51810b39-a1d7-47a2-9062-69940a25bbfd.png">
+             
+- Manhattan:
+<img width="206" alt="image" src="https://user-images.githubusercontent.com/17887418/157328954-3661f20f-d619-4aa2-a083-955a4df18299.png">
+            
+- Navigation: 
+<img width="209" alt="image" src="https://user-images.githubusercontent.com/17887418/157328989-d3ad9ee0-ffd2-46ce-a0aa-9998526b1f51.png">
+
+         
+**Elements:**
+
+<img width="295" alt="image" src="https://user-images.githubusercontent.com/17887418/157329126-dd179441-3240-4f93-aee8-69af2553ba02.png">
+
+_Editing the style element_
+
+<img width="586" alt="image" src="https://user-images.githubusercontent.com/17887418/157329180-931e3b66-5669-44e9-9056-6bda7eaa0c9c.png">
+
+_Editing the attribute_
+
 
 ### 3.3 Blender
 
