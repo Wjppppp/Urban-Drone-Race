@@ -150,7 +150,7 @@ Each of the cities are iterated with a style unique to the city and capturing it
 
 _Editing the style element_
 
-<img width="586" alt="image" src="https://user-images.githubusercontent.com/17887418/157329180-931e3b66-5669-44e9-9056-6bda7eaa0c9c.png">
+<img width="1085" alt="image" src="https://user-images.githubusercontent.com/17887418/157330052-71ab4173-4475-4b7f-ae7e-815de6cd3740.png">
 
 _Editing the attribute_
 
