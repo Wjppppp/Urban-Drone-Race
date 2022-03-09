@@ -47,7 +47,7 @@ Fig 1.2 Overview of the project
 
 ### 2.1 Environment
 
-Unity 2020.3.22f1(LTS)
+Unity 2020.3.22f1(LTS)   
 Visual Studio 2019
 
 ### 2.2 How to Build
